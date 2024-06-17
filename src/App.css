@@ -1,0 +1,83 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (min-width: 1px) and (max-width:800px){
+.imgs{
+  width: 30vw !important;
+  height: 30vw !important;
+}
+
+.footer-component{
+  font-size: 16px !important;
+}
+
+}
+@media (min-width: 1px) and (max-width:452px){
+  #cars2{
+    margin-top: 8vh !important;}
+ 
+}
+
+@media (min-width: 786px) and (max-width:1600px){
+  #cars2{
+    margin-top: 4vh !important;}
+ 
+}
+
+@media (min-width: 450px) and (max-width:764px){
+  #cars2{
+    margin-top: 4vh !important;}
+
+    .img-cars{
+      width: 45vw !important;
+      height: 45vw !important;
+      position: relative;
+      left: 7.5vh !important;
+    }
+ 
+}
+
+#cardRow{
+  justify-content:center ;
+}
+
+#imgg{
+  width:260px ;
+  height:260px;
+}

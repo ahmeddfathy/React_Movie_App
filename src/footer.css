@@ -1,0 +1,31 @@
+#copyRight_txt{
+    background:black ;
+    color: white ;
+    height: 10vh ;
+    display:flex ;
+    align-items: center ;
+    justify-content:center;
+}
+
+#developer_txt{
+    margin-bottom: 15px;
+}
+
+#icons_div{
+    display:flex;
+    flex-wrap:wrap;
+}
+
+#mainDiv{
+    margin-top: 4vh ;
+    background:rgb(44,60,76); 
+    color: rgb(190,198,210);
+}
+#down-txt{
+    text-align: center ; 
+    margin-top: 2vh ;
+}
+
+#fotter_row{
+    justify-content: center;
+}
