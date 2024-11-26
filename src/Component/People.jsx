@@ -18,10 +18,12 @@ getAllTerndings(1);
 }, [])
 function getActorDetalis(id){
 navigate({
-pathname:'/actordetalis',
+pathname:'/actordetails',
 search:`?id=${id}`,
 })
 }
+
+
 return (
 <>
 <div className="row">
@@ -41,7 +43,7 @@ gy-3">
 <img  />
 {nums.map((pagenumber)=> <li onClick={()=>getAllTerndings(pagenumber)}
 
-key={pagenumber} className="page-item "><a className="page-link bg-transparent text-white" >{pagenumber}</a></li>)}
+key={pagenumber} className="page-item "><a className="page-link bg-transparent text-black" >{pagenumber}</a></li>)}
 </ul>
 </nav>
 </>

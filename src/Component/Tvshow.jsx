@@ -42,7 +42,7 @@ useEffect(() => {
 <nav aria-label="...">
 <ul className="pagination pagination-sm d-flex justify-content-center align-items-center ">
 {nums.map((pagenumber)=> <li onClick={()=>getAllTerndings(pagenumber)}
-key={pagenumber} className="page-item "><a className="page-link bg-transparent text-white" >{pagenumber}</a></li>)}
+key={pagenumber} className="page-item "><a className="page-link bg-transparent text-black" >{pagenumber}</a></li>)}
 
 </ul>
 </nav>

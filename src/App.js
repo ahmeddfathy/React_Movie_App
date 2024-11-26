@@ -5,8 +5,8 @@ import Home from './Component/Home';
 import MoviesDetalis from './Component/Moviedetails';
 import Notfound from './Component/Notfound component';
 import TvDetalis from './Component/Tvshowdetalis';
+import ActorDetails from './Component/Actordetails';
 
-import { useEffect, useState } from 'react';
 import Movies from './Component/movies';
 import Tvshow from './Component/Tvshow';
 import People from './Component/People';
@@ -19,15 +19,17 @@ function App() {
     <Navbar/>
     <div className='container'>
     <Routes>
-    <Route path='/' element={<Movies/>}/>
-    <Route path='/home' element={<Movies/>}/>
+    <Route path='/' element={<Home/>}/>
+    <Route path='/home' element={<Home/>}/>
  
     <Route path='movies' element={<Movies/>}/>
     <Route path='tvshow' element={<Tvshow/>}/>
     <Route path='pepole' element={<People/>}/>
-    <Route path='detalis' element={<MoviesDetalis/>}/>
+    <Route path="actordetails" element={<ActorDetails />} />
+    <Route path='details' element={<MoviesDetalis/>}/>
     <Route path='tvdetalis' element={<TvDetalis/>}/>
     <Route path='/tvdetalis/:id' element={<TvDetalis/>}/>
+
    
     <Route path='*' element={<Notfound/>}/>
     </Routes>
